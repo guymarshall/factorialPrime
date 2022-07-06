@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Scanner;
 
@@ -23,6 +24,8 @@ public class Main {
         }
 
 //        System.out.printf("%.3E%n", factorial);
-        System.out.println(factorial);
+//        System.out.println(factorial);
+        BigDecimal answer = new BigDecimal(factorial);
+        System.out.printf("%g", answer);
     }
 }

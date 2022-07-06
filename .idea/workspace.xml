@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39fdafac-cb6d-44ae-aa65-87dc6812a499" name="Changes" comment="Initial commit">
+    <list default="true" id="39fdafac-cb6d-44ae-aa65-87dc6812a499" name="Changes" comment="Move Factorial and Prime object initialisations to global scope as static">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657134776536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implement functions - isPrimeNumber() not working correctly">
+      <created>1657139122890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657139122890</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Move Factorial and Prime object initialisations to global scope as static">
+      <created>1657139197103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657139197103</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Implement functions - isPrimeNumber() not working correctly" />
+    <MESSAGE value="Move Factorial and Prime object initialisations to global scope as static" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move Factorial and Prime object initialisations to global scope as static" />
   </component>
 </project>
