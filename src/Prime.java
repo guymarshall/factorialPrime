@@ -11,7 +11,7 @@ public class Prime {
 //        if (ceilingRoot >= number) {
 //            ceilingRoot = number - 1;
 //        }
-        if (ceilingRoot.compareTo(number) >= 0) {
+        if (ceilingRoot.compareTo(number) <= 0) {
             ceilingRoot = number.subtract(BigInteger.ONE);
         }
 
@@ -29,7 +29,7 @@ public class Prime {
 //            }
 //        }
 
-        for (BigInteger i = BigInteger.valueOf(3); i.compareTo(ceilingRoot) >= 0; i = i.add(BigInteger.TWO)) {
+        for (BigInteger i = BigInteger.valueOf(3); i.compareTo(ceilingRoot) <= 0; i = i.add(BigInteger.TWO)) {
             if (number.mod(i).equals(BigInteger.ZERO)) {
                 return false;
             }
