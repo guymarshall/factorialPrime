@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
+    static Factorial oFactorial = new Factorial();
+    static Prime oPrime = new Prime();
     public static int saveInput(String prompt) {
         System.out.println(prompt);
         return scanner.nextInt();
@@ -10,10 +12,8 @@ public class Main {
     public static void main(String[] args) {
         int number = saveInput("Enter number to calculate factorial of:");
 
-        Factorial oFactorial = new Factorial();
         BigInteger factorial = oFactorial.calculateFactorial(number);
 
-        Prime oPrime = new Prime();
         while (true) {
             boolean isPrime = oPrime.isPrimeNumber(factorial);
             if (isPrime) {
